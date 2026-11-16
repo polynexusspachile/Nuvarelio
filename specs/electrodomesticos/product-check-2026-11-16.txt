@@ -1,0 +1,26 @@
+ Container polynexus-sdd-framework-sdd-run-74ec4fbcf16c Creating 
+ Container polynexus-sdd-framework-sdd-run-74ec4fbcf16c Created 
+Manifiesto Jira válido para electrodomesticos.
+ Container polynexus-sdd-framework-sdd-run-15700d0ed124 Creating 
+ Container polynexus-sdd-framework-sdd-run-15700d0ed124 Created 
+Manifiesto Jira válido para electrodomesticos.
+ Container polynexus-sdd-framework-sdd-run-5d8f43109799 Creating 
+ Container polynexus-sdd-framework-sdd-run-5d8f43109799 Created 
+Puerta product — iniciativa electrodomesticos
+FALTA  Falta aprobación vigente scope/product del alcance SDD.
+FALTA  Falta confirmación humana vigente product-design/functional de los documentos 02 y 12 antes de crear historias Jira.
+FALTA  Falta responsable de legal
+FALTA  Falta responsable de dataProtection
+FALTA  Falta responsable de security
+FALTA  Etapa incompleta: product
+FALTA  Aprobación ausente, vencida o desactualizada: product/business
+FALTA  Aprobación ausente, vencida o desactualizada: product/legal
+FALTA  Falta elemento de tipo obligation
+FALTA  Producto necesita un Epic inicial.
+FALTA  Producto necesita historias iniciales trazables en Jira.
+FALTA  Issue de Producto no verificado por MCP: DISC-001
+FALTA  Issue de Producto no verificado por MCP: DISC-002
+FALTA  Issue de Producto no verificado por MCP: DISC-003
+FALTA  Issue de Producto no verificado por MCP: DISC-004
+FALTA  Issue de Producto no verificado por MCP: DISC-005
+FALTA  Issue de Producto no verificado por MCP: DISC-006

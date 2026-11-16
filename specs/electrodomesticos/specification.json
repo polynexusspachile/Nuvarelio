@@ -1,0 +1,233 @@
+{
+  "schemaVersion": "1",
+  "feature": "electrodomesticos",
+  "items": [
+    {
+      "id": "OBJ-001",
+      "kind": "objective",
+      "description": "Ayudar a particulares en Chile a decidir el siguiente paso ante síntomas de autos o PC, comprendiendo incertidumbre y necesidad de experto; metas de validación pendientes.",
+      "links": [],
+      "status": "draft"
+    },
+    {
+      "id": "RN-001",
+      "kind": "businessRule",
+      "description": "La app orienta y debe indicar cuándo consultar a un experto; no confirma un diagnóstico.",
+      "links": [
+        "OBJ-001"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RN-002",
+      "kind": "businessRule",
+      "description": "Las comprobaciones para el usuario serán externas, seguras y sin desmontaje; catálogo concreto pendiente de revisión experta.",
+      "links": [
+        "RN-001"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RN-003",
+      "kind": "businessRule",
+      "description": "El ejemplo Mazda 6 y bomba a 250.000 km no es evidencia ni se usa como umbral real de reemplazo.",
+      "links": [
+        "RN-001"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RN-004",
+      "kind": "businessRule",
+      "description": "Propuesta: asociar mantenimiento e instalación a fuentes pertinentes y reconocer información incompleta, sin inventar aplicabilidad.",
+      "links": [
+        "RN-001"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RN-005",
+      "kind": "businessRule",
+      "description": "Propuesta: la orientación no certifica seguridad de uso ni autoriza posponer una revisión.",
+      "links": [
+        "RN-001"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RF-001",
+      "kind": "requirement",
+      "description": "Identificar auto o PC de escritorio mediante datos manuales/foto, sin OBD ni lectura automática; campos/compatibilidad pendientes en 02.",
+      "links": [
+        "OBJ-001"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RF-002",
+      "kind": "requirement",
+      "description": "Aportar síntomas, fotos, audio y video desde teléfono; límites y estados finales por acordar.",
+      "links": [
+        "RF-001",
+        "RN-002"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RF-003",
+      "kind": "requirement",
+      "description": "Orientar con fuentes y límites; hacer preguntas breves, admitir insuficiencia y derivar; apoyo de IA externa por evaluar, no diagnóstico confirmado.",
+      "links": [
+        "RF-001",
+        "RF-002",
+        "RN-001",
+        "RN-002",
+        "RN-005"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RF-004",
+      "kind": "requirement",
+      "description": "Consultar mantenimiento aplicable y registrar trabajos declarados por el usuario; avisos posteriores, por decisión del 2026-11-16.",
+      "links": [
+        "RF-001",
+        "RN-003",
+        "RN-004"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RF-005",
+      "kind": "requirement",
+      "description": "Guiar conexión/configuración de PC de escritorio y periféricos externos, sin desmontaje; guías y fuentes concretas pendientes.",
+      "links": [
+        "RF-001",
+        "RN-002",
+        "RN-004"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "DEC-001",
+      "kind": "decision",
+      "description": "El solicitante confirmó particulares en Chile, ambas categorías, PC como primer equipo de la segunda categoría y orientación de fallas como recorrido prioritario el 2026-11-15.",
+      "links": [
+        "OBJ-001",
+        "RF-003"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "DEC-002",
+      "kind": "decision",
+      "description": "El solicitante confirmó dos semanas para discovery/prototipo, Stitch y teléfono con cámara/micrófono; no es compromiso de construcción.",
+      "links": [
+        "OBJ-001",
+        "RF-002"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RN-006",
+      "kind": "businessRule",
+      "description": "Consultar sin registro; cuenta opcional para equipos e historial propios, sin acceso cruzado.",
+      "links": [
+        "OBJ-001"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RN-007",
+      "kind": "businessRule",
+      "description": "Guardar resúmenes; conservación de medios en historial desactivada por defecto y solo por elección explícita; plazos/borrado pendientes.",
+      "links": [
+        "RN-006",
+        "RF-002"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RN-008",
+      "kind": "businessRule",
+      "description": "Enfoque de IA externa apoyada en fuentes verificadas y validación experta; proveedor/costos/datos pendientes antes de implementar.",
+      "links": [
+        "RN-001",
+        "RN-004",
+        "RF-003"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "RF-006",
+      "kind": "requirement",
+      "description": "Permitir consultas como visitante y, con cuenta opcional, guardar equipos e historial con selección de contenido; reglas y criterios en 02.",
+      "links": [
+        "OBJ-001",
+        "RN-006",
+        "RN-007"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "DEC-003",
+      "kind": "decision",
+      "description": "El solicitante confirmó el 2026-11-16 PC de escritorio, ingreso manual/foto sin conexión automática y preguntas breves con salida por insuficiencia.",
+      "links": [
+        "RF-001",
+        "RF-003"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "DEC-004",
+      "kind": "decision",
+      "description": "El solicitante confirmó cuenta opcional, equipos/historial con resúmenes y medios solo por elección; mantenimiento consultable/registrable sin avisos y guías PC/periféricos externos.",
+      "links": [
+        "RF-004",
+        "RF-005",
+        "RF-006"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "DEC-005",
+      "kind": "decision",
+      "description": "El solicitante aceptó el 2026-11-16 considerar IA externa con fuentes verificadas/validación experta; sin proveedor ni costos elegidos ni envío de medios reales.",
+      "links": [
+        "RN-008",
+        "RF-003"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "DEC-006",
+      "kind": "decision",
+      "description": "El solicitante pidió el 2026-11-16 eliminar las propuestas visuales actuales, mejorar UX y continuar; nueva propuesta R1 pendiente de confirmación final, sin cambiar funciones acordadas.",
+      "links": [
+        "OBJ-001",
+        "DEC-002"
+      ],
+      "status": "draft"
+    },
+    {
+      "id": "DEC-007",
+      "kind": "decision",
+      "description": "El solicitante eligió monitor, teclado y mouse para la primera guía y dejó pendiente el caso mecánico; continuar otras funciones sin inventar un diagnóstico de referencia.",
+      "links": [
+        "RF-003",
+        "RF-005"
+      ],
+      "status": "draft"
+    }
+  ],
+  "testStrategy": {
+    "requiredCategories": [
+      "unit",
+      "integration",
+      "compliance",
+      "privacy",
+      "security"
+    ]
+  }
+}

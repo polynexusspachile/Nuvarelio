@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+
+<html class="h-full" lang="es"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Guía Clara - Mi historial</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Manrope:wght@600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "tertiary-dim": "#574f6a",
+            "outline-variant": "#8db3f6",
+            "tertiary": "#645b77",
+            "surface-container-high": "#dfe8ff",
+            "primary-fixed": "#dde1ff",
+            "on-secondary-fixed-variant": "#00694d",
+            "error-dim": "#4f0116",
+            "inverse-surface": "#030e21",
+            "surface-container-low": "#f0f3ff",
+            "surface-dim": "#c9daff",
+            "surface-container-lowest": "#ffffff",
+            "on-error": "#fff7f7",
+            "inverse-primary": "#6c88ff",
+            "on-tertiary-fixed-variant": "#605773",
+            "error": "#9e3f4e",
+            "tertiary-fixed-dim": "#dbcff0",
+            "background": "#f9f9ff",
+            "on-tertiary-fixed": "#433b55",
+            "surface-tint": "#1a4ce8",
+            "surface-bright": "#f9f9ff",
+            "primary-fixed-dim": "#cbd2ff",
+            "secondary-fixed": "#91f6cd",
+            "on-error-container": "#782232",
+            "on-primary-fixed-variant": "#1449e5",
+            "tertiary-fixed": "#e9ddff",
+            "primary-container": "#dde1ff",
+            "on-tertiary": "#fdf7ff",
+            "on-secondary-container": "#005e45",
+            "surface-variant": "#d6e3ff",
+            "outline": "#547bba",
+            "primary-dim": "#003fd8",
+            "secondary-container": "#91f6cd",
+            "tertiary-container": "#e9ddff",
+            "on-secondary-fixed": "#004935",
+            "on-background": "#003267",
+            "on-surface": "#003267",
+            "on-primary": "#f9f7ff",
+            "secondary-dim": "#005f46",
+            "surface-container": "#e8eeff",
+            "on-primary-container": "#003ed6",
+            "surface": "#f9f9ff",
+            "primary": "#1a4ce8",
+            "inverse-on-surface": "#919db6",
+            "secondary-fixed-dim": "#82e8c0",
+            "surface-container-highest": "#d6e3ff",
+            "on-surface-variant": "#375f9c",
+            "on-secondary": "#e5fff1",
+            "secondary": "#006d50",
+            "on-tertiary-container": "#564d69",
+            "on-primary-fixed": "#0030aa",
+            "error-container": "#ff8b9a"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "fontFamily": {
+            "headline": ["Manrope", "sans-serif"],
+            "display": ["Manrope", "sans-serif"],
+            "body": ["Inter", "sans-serif"],
+            "label": ["Inter", "sans-serif"]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-surface-container text-on-surface font-body antialiased min-h-screen flex justify-center items-start sm:py-6">
+<!-- Mobile Viewport Container (390px x ~844px) -->
+<main class="w-full max-w-[390px] min-h-[844px] bg-background relative flex flex-col shadow-sm sm:rounded-2xl overflow-hidden pb-20">
+<!-- Top Bar Component -->
+<header class="bg-surface sticky top-0 z-40">
+<div class="flex justify-between items-center w-full px-4 h-14">
+<button aria-label="Volver" class="text-on-surface-variant hover:bg-surface-container-low transition-colors duration-150 active:scale-95 transition-transform duration-100 min-h-[48px] min-w-[48px] flex items-center justify-center -ml-2 rounded-full" type="button">
+<span class="material-symbols-outlined text-[24px]">arrow_back</span>
+</button>
+<span class="font-headline text-lg font-bold text-on-surface tracking-tight">Guía Clara</span>
+<button aria-label="Ayuda" class="text-on-surface-variant hover:bg-surface-container-low transition-colors duration-150 active:scale-95 transition-transform duration-100 min-h-[48px] min-w-[48px] flex items-center justify-center -mr-2 rounded-full" type="button">
+<span class="material-symbols-outlined text-[24px]">help</span>
+</button>
+</div>
+</header>
+<!-- Main Content Area -->
+<div class="flex-1 px-4 pt-2 pb-6 flex flex-col gap-5">
+<!-- Headline & Subtitle -->
+<section class="flex flex-col gap-1">
+<h1 class="font-headline text-2xl font-extrabold text-on-surface tracking-tight">
+          Mi historial
+        </h1>
+<p class="text-on-surface-variant text-sm font-normal">
+          Tus consultas y trabajos guardados en tu cuenta.
+        </p>
+</section>
+<!-- Chips de Filtro por Equipo -->
+<section aria-label="Filtrar por equipo">
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-0.5" role="tablist">
+<!-- Chip: Todos (Activo) -->
+<button aria-selected="true" class="h-9 px-4 rounded-full bg-primary text-on-primary font-headline text-sm font-bold flex items-center justify-center transition-all shadow-sm" role="tab" type="button">
+            Todos
+          </button>
+<!-- Chip: Mi auto -->
+<button aria-selected="false" class="h-9 px-3.5 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low text-sm font-medium flex items-center gap-1.5 transition-colors border border-surface-container-high/60" role="tab" type="button">
+<span class="material-symbols-outlined text-[18px]">directions_car</span>
+<span>Mi auto</span>
+</button>
+<!-- Chip: Mi PC -->
+<button aria-selected="false" class="h-9 px-3.5 rounded-full bg-surface-container-lowest text-on-surface-variant hover:bg-surface-container-low text-sm font-medium flex items-center gap-1.5 transition-colors border border-surface-container-high/60" role="tab" type="button">
+<span class="material-symbols-outlined text-[18px]">desktop_windows</span>
+<span>Mi PC</span>
+</button>
+</div>
+</section>
+<!-- Pestañas horizontales de Tipo de Actividad -->
+<nav aria-label="Tipo de actividad" class="flex border-b border-surface-container-high gap-6 px-1">
+<!-- Tab: Todo (Activa) -->
+<button class="pb-2.5 font-headline text-sm font-bold text-primary relative flex items-center" type="button">
+          Todo
+          <span class="absolute bottom-0 left-0 right-0 h-0.5 bg-primary rounded-full"></span>
+</button>
+<!-- Tab: Consultas -->
+<button class="pb-2.5 font-headline text-sm font-medium text-on-surface-variant hover:text-on-surface transition-colors" type="button">
+          Consultas
+        </button>
+<!-- Tab: Trabajos -->
+<button class="pb-2.5 font-headline text-sm font-medium text-on-surface-variant hover:text-on-surface transition-colors" type="button">
+          Trabajos
+        </button>
+</nav>
+<!-- Lista de Actividades -->
+<section aria-label="Entradas del historial" class="flex flex-col gap-3.5">
+<!-- Tarjeta 1: Falla / Consulta -->
+<article class="bg-surface-container-lowest rounded-xl p-4 border border-surface-container-high/70 shadow-sm flex flex-col gap-3 transition-shadow hover:shadow-md">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col gap-1 flex-1">
+<span class="text-xs font-semibold text-on-surface-variant tracking-wide uppercase font-label">
+                16 nov
+              </span>
+<h2 class="font-headline text-base font-bold text-on-surface leading-snug">
+                Ruido al intentar encender
+              </h2>
+<p class="text-xs text-on-surface-variant font-medium flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[15px] text-primary">directions_car</span>
+                Mi auto · Mazda 3 2020
+              </p>
+</div>
+<!-- Icono referencial sutil -->
+<div class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-[20px]">volume_up</span>
+</div>
+</div>
+<!-- Divisorio sutil y Pie de Tarjeta -->
+<div class="pt-2 border-t border-surface-container-low flex items-center justify-between gap-2">
+<!-- Badge o estado sobrio: Neutro informativo -->
+<span class="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-surface-container-low text-on-surface-variant">
+              Sin causa concluyente
+            </span>
+<!-- Botón de acción secundaria táctil -->
+<button class="min-h-[44px] px-3 -mr-2 text-primary font-headline text-xs font-bold flex items-center gap-1 hover:text-primary-dim active:scale-95 transition-all" type="button">
+<span>Ver detalle</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</article>
+<!-- Tarjeta 2: Mantenimiento / Trabajo registrado -->
+<article class="bg-surface-container-lowest rounded-xl p-4 border border-surface-container-high/70 shadow-sm flex flex-col gap-3 transition-shadow hover:shadow-md">
+<div class="flex items-start justify-between gap-3">
+<div class="flex flex-col gap-1 flex-1">
+<span class="text-xs font-semibold text-on-surface-variant tracking-wide uppercase font-label">
+                16 nov
+              </span>
+<h2 class="font-headline text-base font-bold text-on-surface leading-snug">
+                Limpieza exterior
+              </h2>
+<p class="text-xs text-on-surface-variant font-medium flex items-center gap-1 mt-0.5">
+<span class="material-symbols-outlined text-[15px] text-primary">directions_car</span>
+                Mi auto · Mazda 3 2020
+              </p>
+</div>
+<!-- Icono referencial sutil -->
+<div class="w-8 h-8 rounded-lg bg-surface-container-low flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-[20px]">water_drop</span>
+</div>
+</div>
+<!-- Divisorio sutil y Pie de Tarjeta -->
+<div class="pt-2 border-t border-surface-container-low flex items-center justify-between gap-2">
+<!-- Etiqueta de procedencia sobria -->
+<span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md text-xs font-medium bg-surface-container-low text-on-surface-variant">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+              Trabajo registrado por ti
+            </span>
+<!-- Botón de acción secundaria táctil -->
+<button class="min-h-[44px] px-3 -mr-2 text-primary font-headline text-xs font-bold flex items-center gap-1 hover:text-primary-dim active:scale-95 transition-all" type="button">
+<span>Ver detalle</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</article>
+</section>
+
+</div>
+<!-- BottomNavBar Compartido (Historial ACTIVO) -->
+<nav aria-label="Navegación principal" class="fixed bottom-0 left-0 right-0 w-full max-w-[390px] mx-auto z-50 flex justify-around items-center px-4 py-2 bg-surface">
+<!-- Destino: Inicio (Inactivo) -->
+<button class="flex flex-col items-center justify-center text-on-surface-variant min-h-[48px] min-w-[48px] hover:bg-surface-container-low transition-colors duration-150 active:scale-95 transition-transform duration-100 rounded-lg" type="button">
+<span class="material-symbols-outlined text-[24px]">home</span>
+<span class="font-label text-xs font-medium">Inicio</span>
+</button>
+<!-- Destino: Equipos (Inactivo) -->
+<button class="flex flex-col items-center justify-center text-on-surface-variant min-h-[48px] min-w-[48px] hover:bg-surface-container-low transition-colors duration-150 active:scale-95 transition-transform duration-100 rounded-lg" type="button">
+<span class="material-symbols-outlined text-[24px]">devices</span>
+<span class="font-label text-xs font-medium">Equipos</span>
+</button>
+<!-- Destino: Historial (ACTIVO) -->
+<button class="flex flex-col items-center justify-center text-primary font-semibold min-h-[48px] min-w-[48px] hover:bg-surface-container-low transition-colors duration-150 active:scale-95 transition-transform duration-100 rounded-lg" type="button">
+<span class="material-symbols-outlined text-[24px]" style="font-variation-settings: 'FILL' 1;">history</span>
+<span class="font-label text-xs font-medium">Historial</span>
+</button>
+</nav>
+</main>
+<style>
+    /* Ocultar barra de scroll en contenedores horizontales preservando usabilidad */
+    .no-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
+    .no-scrollbar {
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+  </style>
+</body></html>

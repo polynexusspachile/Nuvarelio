@@ -1,0 +1,25 @@
+name: polynexus-sdd-framework
+version: 0.6.0
+language: es-CL
+canonical_artifacts:
+  - specs
+  - .sdd
+areas:
+  - product
+  - engineering
+  - quality
+workflow:
+  product:
+    output: human-confirmed functional design document before Jira stories, support requirements, business/legal approvals and verified backlog
+  engineering:
+    input: approved product artefacts
+    output: refined stories, approved design baseline, implementation and PR with CI and independent review
+  quality:
+    input: approved engineering handoff and current PR commit
+    output: test evidence, legal/data/security approvals and verified findings with retest or accepted risk
+adapters:
+  default: kiro-crew
+  supported:
+    - kiro-crew
+    - codex
+    - claude-code

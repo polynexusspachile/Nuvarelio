@@ -1,0 +1,93 @@
+{
+  "schemaVersion": "1",
+  "feature": "electrodomesticos",
+  "inputHash": "6028937ba78d3086e83ed7332d1930957ded118f6bfb8aca30a28074b668f422",
+  "facts": {
+    "visual": {
+      "value": true,
+      "evidence": "El solicitante pidió el 2026-11-16 eliminar las propuestas previas, mejorar UX y continuar. Se retiró el canvas anterior, se eliminaron7capturas y se verificaron12vistas UX R1 nuevas en el proyecto Stitch projects/15119609733945067300. Referencias: 00,02,12 y design/stitch-review.json. Responsable de solicitud: solicitante en conversación; diseño/inspección por agente de Producto. Nueva propuesta pendiente de revisión humana; no es aprobación funcional final."
+    },
+    "integrations": {
+      "value": true,
+      "evidence": "El solicitante aceptó el 2026-11-16 IA externa apoyada en fuentes verificadas y validación experta, dejando proveedor/costos/tratamiento de datos pendientes antes de implementar. También confirmó ingreso manual/foto sin OBD ni lectura automática de equipos. Referencias: decisiones de continuación en 00/01/02 y DEC-003/DEC-005. Responsable de decisión: solicitante en esta conversación; registro por Producto. Integraciones requiere contratos y manejo de fallos; no se elige proveedor/arquitectura ni se autoriza envío de archivos reales."
+    },
+    "migration": {
+      "value": false,
+      "evidence": "Evaluación documental de Producto el 2026-11-15: el repositorio contiene solo AGENTS.md, .agents, .sdd y specs; se solicita desarrollar una idea nueva y no se pidió importar ni transformar datos de un producto existente. Referencias: inventario local y 00-idea.md. Responsable: agente de Producto; exclusión propuesta pendiente de revisión humana scope/product. Si aparece importación/histórico se reevalúa."
+    },
+    "operations": {
+      "value": true,
+      "evidence": "La guía orientará fallas y derivará a expertos; necesita resolver consejos cuestionados, corrección de contenido y fallos de consulta. Referencias: solicitud original en 00 y Operación en 02. Responsable: Producto (evaluación de recorridos, 2026-11-15); responsables/horarios humanos por acordar."
+    },
+    "privacy": {
+      "value": true,
+      "evidence": "Fotos, audio y video aportados por particulares pueden contener identificadores personales. Se deben concretar finalidades, acceso, conservación y derechos. Referencias: 00, RF-002 en 02 y revisión legal inicial en 01. Responsable: Producto (evaluación documental, 2026-11-15); aprobación de privacidad pendiente."
+    },
+    "legal": {
+      "value": true,
+      "evidence": "Chile confirmado por el solicitante el 2026-11-15; orientación con medios y posibles efectos físicos/materiales requiere revisar datos personales, consumo, responsabilidad y límites de instalación. Fuentes oficiales y aplicabilidad preliminar en 01-product-brief.md. Responsable: Producto (investigación inicial); persona revisora legal por identificar. No se declara aprobación legal."
+    },
+    "technical": {
+      "value": true,
+      "evidence": "Se solicita app nueva con captura de medios, cuenta opcional, historial, mantenimiento y guías; requiere diseño técnico posterior a Producto. Referencias: 00 y RF-001 a RF-006 en02. Responsable: Producto, 2026-11-16. El HTML editado es solo export de prototipo; no se elige arquitectura ni proveedor."
+    }
+  },
+  "work": [
+    {
+      "id": "visual",
+      "label": "Diseño visual/prototipo",
+      "status": "required",
+      "reason": "El solicitante pidió el 2026-11-16 eliminar las propuestas previas, mejorar UX y continuar. Se retiró el canvas anterior, se eliminaron7capturas y se verificaron12vistas UX R1 nuevas en el proyecto Stitch projects/15119609733945067300. Referencias: 00,02,12 y design/stitch-review.json. Responsable de solicitud: solicitante en conversación; diseño/inspección por agente de Producto. Nueva propuesta pendiente de revisión humana; no es aprobación funcional final.",
+      "question": "",
+      "suggested": "required"
+    },
+    {
+      "id": "integrations",
+      "label": "Contratos de integración",
+      "status": "required",
+      "reason": "El solicitante aceptó el 2026-11-16 IA externa apoyada en fuentes verificadas y validación experta, dejando proveedor/costos/tratamiento de datos pendientes antes de implementar. También confirmó ingreso manual/foto sin OBD ni lectura automática de equipos. Referencias: decisiones de continuación en 00/01/02 y DEC-003/DEC-005. Responsable de decisión: solicitante en esta conversación; registro por Producto. Integraciones requiere contratos y manejo de fallos; no se elige proveedor/arquitectura ni se autoriza envío de archivos reales.",
+      "question": "",
+      "suggested": "required"
+    },
+    {
+      "id": "migration",
+      "label": "Migración y recuperación de datos",
+      "status": "not-applicable",
+      "reason": "Evaluación documental de Producto el 2026-11-15: el repositorio contiene solo AGENTS.md, .agents, .sdd y specs; se solicita desarrollar una idea nueva y no se pidió importar ni transformar datos de un producto existente. Referencias: inventario local y 00-idea.md. Responsable: agente de Producto; exclusión propuesta pendiente de revisión humana scope/product. Si aparece importación/histórico se reevalúa.",
+      "question": "",
+      "suggested": null
+    },
+    {
+      "id": "operations",
+      "label": "Soporte y observabilidad",
+      "status": "required",
+      "reason": "La guía orientará fallas y derivará a expertos; necesita resolver consejos cuestionados, corrección de contenido y fallos de consulta. Referencias: solicitud original en 00 y Operación en 02. Responsable: Producto (evaluación de recorridos, 2026-11-15); responsables/horarios humanos por acordar.",
+      "question": "",
+      "suggested": "required"
+    },
+    {
+      "id": "privacy",
+      "label": "Protección de datos",
+      "status": "required",
+      "reason": "El perfil de cumplimiento exige esta revisión.",
+      "question": "",
+      "suggested": "required"
+    },
+    {
+      "id": "legal",
+      "label": "Revisión de obligaciones legales",
+      "status": "required",
+      "reason": "Chile confirmado por el solicitante el 2026-11-15; orientación con medios y posibles efectos físicos/materiales requiere revisar datos personales, consumo, responsabilidad y límites de instalación. Fuentes oficiales y aplicabilidad preliminar en 01-product-brief.md. Responsable: Producto (investigación inicial); persona revisora legal por identificar. No se declara aprobación legal.",
+      "question": "",
+      "suggested": "required"
+    },
+    {
+      "id": "technical",
+      "label": "Diseño técnico",
+      "status": "required",
+      "reason": "Se solicita app nueva con captura de medios, cuenta opcional, historial, mantenimiento y guías; requiere diseño técnico posterior a Producto. Referencias: 00 y RF-001 a RF-006 en02. Responsable: Producto, 2026-11-16. El HTML editado es solo export de prototipo; no se elige arquitectura ni proveedor.",
+      "question": "",
+      "suggested": "required"
+    }
+  ]
+}

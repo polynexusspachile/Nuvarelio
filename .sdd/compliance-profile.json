@@ -1,0 +1,30 @@
+{
+  "schemaVersion": "1",
+  "jurisdictions": [
+    "Chile"
+  ],
+  "industries": [
+    "Orientación sobre fallas, mantenimiento e instalación de autos y equipos de uso particular"
+  ],
+  "dataCategories": [
+    "Síntomas y datos técnicos de auto o PC aportados por el usuario",
+    "Fotos, audio y video que pueden contener identificadores de personas de forma incidental",
+    "Datos de cuenta opcional, identificador por acordar, equipos propios e historial de consultas/mantenimiento",
+    "Resúmenes de consulta; conservación de fotos/audio/video en historial solo por elección explícita"
+  ],
+  "externalDataTransfers": false,
+  "childrenData": false,
+  "automatedDecisions": false,
+  "highRiskProcessing": false,
+  "sensitiveData": false,
+  "biometricData": false,
+  "largeScaleProcessing": false,
+  "legalReviewRequired": true,
+  "dataProtectionReviewRequired": true,
+  "securityReviewRequired": true,
+  "owners": {
+    "legal": "",
+    "dataProtection": "",
+    "security": ""
+  }
+}

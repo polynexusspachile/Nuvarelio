@@ -1,0 +1,6 @@
+{
+  "schemaVersion": "1",
+  "feature": "{{feature_name}}",
+  "items": [],
+  "testStrategy": { "requiredCategories": ["unit", "integration", "compliance", "privacy", "security"] }
+}

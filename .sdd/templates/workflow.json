@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1",
+  "feature": "{{feature_name}}",
+  "stages": {
+    "product": { "status": "draft" },
+    "refinement": { "status": "draft" },
+    "design": { "status": "draft" },
+    "build": { "status": "draft", "commit": "" },
+    "handoff": { "status": "draft" },
+    "quality": { "status": "draft" }
+  },
+  "openRisks": [],
+  "findings": [],
+  "handoffs": []
+}

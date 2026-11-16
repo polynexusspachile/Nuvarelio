@@ -1,0 +1,84 @@
+{
+  "discardedAtDate": "2026-11-16",
+  "reason": "El solicitante pidió mejorar la UX y eliminar las propuestas actuales antes de continuar.",
+  "authorization": "Mejora la experiencia de usuario, Elimina las propuestas actuales y dps sigue",
+  "localExportsDeleted": [
+    "P-001-v0.1.png",
+    "P-001-v0.2.png",
+    "P-002-v0.1.png",
+    "P-002-v0.2.png",
+    "P-003-v0.1.png",
+    "P-003-v0.2.png",
+    "P-004-v0.1.png"
+  ],
+  "canvasClearedAndVerified": true,
+  "remoteScreenResourcesPermanentlyDeleted": false,
+  "remoteDeletionNote": "El conector disponible no ofrece borrado de pantallas individuales. Se retiraron todas las instancias del canvas; no se eliminó el proyecto contenedor.",
+  "previousMetadata": {
+    "projectResource": "projects/15119609733945067300",
+    "projectUrl": "https://stitch.withgoogle.com/projects/15119609733945067300",
+    "access": "PRIVATE",
+    "projectVerifiedBy": "Stitch MCP get_project",
+    "screenResource": "projects/15119609733945067300/screens/c4420af152eb4981b5ef7cd38a169761",
+    "version": "Flujo de orientación v0.2 — cuatro pantallas",
+    "retrievedAtDate": "2026-11-16",
+    "sourceScreenshotResource": "projects/15119609733945067300/files/7922f032e08c432cb4c25be9a54b8bfb",
+    "sourceHtmlResource": "projects/15119609733945067300/files/377c0bcf28e4415f9612dc116c61f5f7",
+    "exportPath": "design/P-001-v0.2.png",
+    "exportSha256": "0f9c628bc62a69d25043523695650ecb57c7f95ff6b92bad10fe3241b348e277",
+    "visualInspection": "Capturas inspeccionadas por el agente. Se corrigió truncamiento de cabecera y redundancia de P-002/P-003; el resumen largo de P-002 aún necesita lectura completa en el diseño final. Navegación/interacción y calidad diagnóstica no verificadas. Cuatro pantallas actuales añadidas al canvas y recuperadas mediante MCP.",
+    "humanReview": {
+      "status": "continuation_requested",
+      "scope": "El solicitante indicó «sigue» el 2026-11-16; se autoriza continuar discovery. Se pidió revisión del conjunto de cuatro wireframes. No hay confirmación funcional final de 02/12.",
+      "reviewer": "Solicitante en conversación; identidad para aprobaciones pendiente",
+      "confirmedAt": ""
+    },
+    "previousVersion": {
+      "version": "P-001 v0.1",
+      "screenResource": "projects/15119609733945067300/screens/29648eca11fa49d5b685e90cc9b970f2",
+      "exportPath": "design/P-001-v0.1.png",
+      "exportSha256": "110712312dd9ece2e912f301fae9d20c89777ddf5adfb55627a3a2647f9b9391"
+    },
+    "canvasVerifiedAtDate": "2026-11-16",
+    "screens": [
+      {
+        "id": "P-001",
+        "version": "0.2",
+        "screenResource": "projects/15119609733945067300/screens/c4420af152eb4981b5ef7cd38a169761",
+        "exportPath": "design/P-001-v0.2.png",
+        "sha256": "0f9c628bc62a69d25043523695650ecb57c7f95ff6b92bad10fe3241b348e277",
+        "purpose": "Nueva consulta"
+      },
+      {
+        "id": "P-002",
+        "version": "0.2",
+        "screenResource": "projects/15119609733945067300/screens/3dc6a68527824527906accaf2b62131d",
+        "sourceScreenshotResource": "projects/15119609733945067300/files/4a33f7ebc3734bba9cccf023f4b9e51e",
+        "sourceHtmlResource": "projects/15119609733945067300/files/2cfafdc1ba4045a18ab9f6edf2be3eb7",
+        "exportPath": "design/P-002-v0.2.png",
+        "sha256": "8a92dc5ea1b9e964622cc292ae546bdee6d76a9e327102e614c7e051e8e95e1d",
+        "purpose": "Preguntas aclaratorias"
+      },
+      {
+        "id": "P-003",
+        "version": "0.2",
+        "screenResource": "projects/15119609733945067300/screens/d0e5a0a54c23435bb54c9700b5e0d314",
+        "sourceScreenshotResource": "projects/15119609733945067300/files/d38fd46a15754321924e510bf35deb8a",
+        "sourceHtmlResource": "projects/15119609733945067300/files/d2ddee3e9e8b4e03801fd6ca12b861d3",
+        "exportPath": "design/P-003-v0.2.png",
+        "sha256": "91c8bd172468a4643e38637b8a81583627d73431665f5641df21434fac235791",
+        "purpose": "Información insuficiente"
+      },
+      {
+        "id": "P-004",
+        "version": "0.1",
+        "screenResource": "projects/15119609733945067300/screens/21060aee72f749f883015639081dcac3",
+        "sourceScreenshotResource": "projects/15119609733945067300/files/88bba7cffe5b4afbb52724f82a817ede",
+        "sourceHtmlResource": "projects/15119609733945067300/files/58beaaf460f84301a9e330ab8df97c69",
+        "exportPath": "design/P-004-v0.1.png",
+        "sha256": "5902b03f986bc74f005ab4cc368a9262b2d169316d3c37838ff75c1e0624e248",
+        "purpose": "Detener comprobaciones ante peligro reportado"
+      }
+    ]
+  }
+}

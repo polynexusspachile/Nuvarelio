@@ -1,0 +1,201 @@
+{
+  "projectResource": "projects/15119609733945067300",
+  "projectUrl": "https://stitch.withgoogle.com/projects/15119609733945067300",
+  "access": "PRIVATE",
+  "version": "UX R1 — snapshot 2026-11-16",
+  "status": "draft_for_review",
+  "designSystemResource": "assets/13789972946781811835",
+  "canvasVerifiedAtDate": "2026-11-16",
+  "screenCount": 12,
+  "previousProposals": {
+    "status": "discarded_by_user",
+    "canvasRemoved": true,
+    "localExportsDeleted": 7,
+    "record": "design/discarded-proposals-2026-11-16.json"
+  },
+  "screens": [
+    {
+      "id": "UX-01",
+      "title": "UX-01 Inicio",
+      "revision": "R1.0",
+      "screenResource": "projects/15119609733945067300/screens/4b742b4b54a047508e0f98bb2918be67",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/34a41f5622494677aaf4f4a960ecde4f",
+      "sourceHtmlResource": "projects/15119609733945067300/files/4f88a1308e2846fda458a356af8a2eb7",
+      "exportPath": "design/R1-UX-01.png",
+      "sha256": "36eddb731c775c7e5e2ce448b5ccf14b1582174776319b4c251c19c7919f70b6",
+      "requirements": [
+        "RF-001",
+        "RF-003",
+        "RF-004",
+        "RF-005",
+        "RF-006"
+      ]
+    },
+    {
+      "id": "UX-02",
+      "title": "UX-02 R1.1 Elegir equipo",
+      "revision": "R1.1",
+      "screenResource": "projects/15119609733945067300/screens/3ae3de8fa23342f99f210e14ed4b7265",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/9c5a38f6cf294a4e929f0e4582547d6b",
+      "sourceHtmlResource": "projects/15119609733945067300/files/28c8d61599384c429b4090a547efcdce",
+      "exportPath": "design/R1-UX-02.png",
+      "sha256": "34d712e336d6365fcaacaefb704d2f4c99cf9adf12ee7cb0c9ac125ed889b764",
+      "requirements": [
+        "RF-001",
+        "RF-002",
+        "RF-003"
+      ]
+    },
+    {
+      "id": "UX-03",
+      "title": "UX-03 Contar síntoma",
+      "revision": "R1.0",
+      "screenResource": "projects/15119609733945067300/screens/8d1227a76dc940f8afb7c8507336e7aa",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/1d88cc2623804a26af20d196143b58ca",
+      "sourceHtmlResource": "projects/15119609733945067300/files/fbb8e13c68854b2190025d03a1109b0a",
+      "exportPath": "design/R1-UX-03.png",
+      "sha256": "bc36bac146837a9a5c91acb03b5fd16c183bb543befad69de0790aa4df5d5f75",
+      "requirements": [
+        "RF-002",
+        "RF-003"
+      ]
+    },
+    {
+      "id": "UX-04",
+      "title": "UX-04 Un dato más",
+      "revision": "R1.0",
+      "screenResource": "projects/15119609733945067300/screens/36d62a006e38457e9e11448d83863447",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/ddeff316fed84693bfb5e0d27289f86a",
+      "sourceHtmlResource": "projects/15119609733945067300/files/a0239e66c3534e3991dbe70d14a2347e",
+      "exportPath": "design/R1-UX-04.png",
+      "sha256": "86998e243f809154e85562ca3cea30d3c4f5eca40901432f45f4f06128f65ca1",
+      "requirements": [
+        "RF-003"
+      ]
+    },
+    {
+      "id": "UX-05",
+      "title": "UX-05 Tu siguiente paso",
+      "revision": "R1.0",
+      "screenResource": "projects/15119609733945067300/screens/3cc1b924460b4953b79a1a30bfeda824",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/352f9897b72042c08020812c349ee821",
+      "sourceHtmlResource": "projects/15119609733945067300/files/db7d1b59b7de42a4bb54af19c50a5f4c",
+      "exportPath": "design/R1-UX-05.png",
+      "sha256": "9a5b2c351d547aa66006fb633db77df3e7f577c9297c44fb181172d6e780427d",
+      "requirements": [
+        "RF-003"
+      ]
+    },
+    {
+      "id": "UX-06",
+      "title": "UX-06 Primero, tu seguridad",
+      "revision": "R1.2",
+      "screenResource": "projects/15119609733945067300/screens/5c5f4867a88a43f4b33d33eb92df257a",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/16155685767334155907",
+      "sourceHtmlResource": "projects/15119609733945067300/files/16155685767334156233",
+      "exportPath": "design/R1-UX-06.png",
+      "sha256": "de9c8f4499dc402582661cd0d5c1dd33a3962c45aad44f1f8e757b9f3c338346",
+      "remoteScreenshotAndCopyVerified": true,
+      "requirements": [
+        "RF-003"
+      ]
+    },
+    {
+      "id": "UX-07",
+      "title": "UX-07 Mantenimiento",
+      "revision": "R1.0",
+      "screenResource": "projects/15119609733945067300/screens/beb9b48b58444099b3c519ccdc74f545",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/ba847acb9e3b4afbbd86a6fe9d9e40e3",
+      "sourceHtmlResource": "projects/15119609733945067300/files/cc74e1b61f6b4824b7f84b42c05a7a6c",
+      "exportPath": "design/R1-UX-07.png",
+      "sha256": "4fd5e75e08def6b519761a9f2a58b99610846d451d884a3e975ce39958eae258",
+      "requirements": [
+        "RF-004",
+        "RF-006"
+      ]
+    },
+    {
+      "id": "UX-08",
+      "title": "UX-08 Conectar mi PC",
+      "revision": "R1.0",
+      "screenResource": "projects/15119609733945067300/screens/02d7cb03f8d840eb8efa6d9baaffd80d",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/a5c6aaa2b140449cb70d92a17f499a0b",
+      "sourceHtmlResource": "projects/15119609733945067300/files/38afd14f8b16417bb9a7ff3c900f4c37",
+      "exportPath": "design/R1-UX-08.png",
+      "sha256": "3c2d655396e1d853c84992cc5e2225795fe9bd986d371b5ff93e3c18d151af2b",
+      "requirements": [
+        "RF-005"
+      ]
+    },
+    {
+      "id": "UX-09",
+      "title": "UX-09 Guardar consulta",
+      "revision": "R1.0",
+      "screenResource": "projects/15119609733945067300/screens/bbda9401584d44debb73031e54d915d9",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/1aa5fcb93cd242b387f2a3776a991996",
+      "sourceHtmlResource": "projects/15119609733945067300/files/0d1e3e43eada4b07a730d30fa60bb5ae",
+      "exportPath": "design/R1-UX-09.png",
+      "sha256": "098f31c0dfac8fc397863a9c9d7438c5d23962c1eb9a06d0169fe3979f0aa586",
+      "requirements": [
+        "RF-006"
+      ]
+    },
+    {
+      "id": "UX-10",
+      "title": "UX-10 Mis equipos",
+      "revision": "R1.0",
+      "screenResource": "projects/15119609733945067300/screens/e714d22cc4314e8585c4aee841163115",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/4940bd46695b4784b7cf85916ae07617",
+      "sourceHtmlResource": "projects/15119609733945067300/files/e3c5a0226bb94b338cc06e64c39fa0f2",
+      "exportPath": "design/R1-UX-10.png",
+      "sha256": "18174cb7f4f72c1d934d0e6c79b70ee2269d424ca9d83dd203141f0e46b4273f",
+      "requirements": [
+        "RF-006"
+      ]
+    },
+    {
+      "id": "UX-11",
+      "title": "UX-11 Registrar trabajo",
+      "revision": "R1.0",
+      "screenResource": "projects/15119609733945067300/screens/9341788b96ad4cbebd50875d18c2fd40",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/7b360f4945754049b73524957a78032c",
+      "sourceHtmlResource": "projects/15119609733945067300/files/2fa98bd76c3c47308c1e4b757af2ee4e",
+      "exportPath": "design/R1-UX-11.png",
+      "sha256": "1b99a5b7090fcfda1fa81d46f1b51826f47ac46284c90da1f698d34f79d8e5e0",
+      "requirements": [
+        "RF-004",
+        "RF-006"
+      ]
+    },
+    {
+      "id": "UX-12",
+      "title": "UX-12 Mi historial",
+      "revision": "R1.1",
+      "screenResource": "projects/15119609733945067300/screens/d57a2a3ba440439981cd1a757c8b8aed",
+      "sourceScreenshotResource": "projects/15119609733945067300/files/6415507369053299422",
+      "sourceHtmlResource": "projects/15119609733945067300/files/6415507369053300144",
+      "exportPath": "design/R1-UX-12.png",
+      "sha256": "494ff928c2c27d36e5aacc8e5cbf20513ebd96d08367a8819fc8804a6c53e568",
+      "remoteScreenshotAndCopyVerified": true,
+      "requirements": [
+        "RF-006"
+      ]
+    }
+  ],
+  "visualVerification": {
+    "method": "Capturas exportadas y contact sheets; dos correcciones HTML renderizadas en Chromium disponible y actualizadas por MCP, con lectura posterior de imagen y texto remotos.",
+    "notVerified": [
+      "Navegación ejecutable del conjunto",
+      "Autenticación/guardado/análisis reales",
+      "Accesibilidad completa",
+      "Usabilidad con personas",
+      "Precisión diagnóstica o instalación real"
+    ]
+  },
+  "humanReview": {
+    "status": "pending",
+    "scope": "El usuario solicitó reemplazar propuestas y continuar; no confirmó la nueva versión R1 ni 02/12 finales.",
+    "reviewer": "",
+    "confirmedAt": ""
+  }
+}

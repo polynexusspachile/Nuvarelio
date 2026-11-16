@@ -1,0 +1,70 @@
+{
+  "schemaVersion": "1",
+  "feature": "electrodomesticos",
+  "researchedAtDate": "2026-11-16",
+  "timezone": "America/Santiago",
+  "candidate": "Nuvarelio",
+  "status": "proposal_not_accepted",
+  "guaranteeOfLegalSafety": false,
+  "officialSearchUrl": "https://buscadormarcas.inapi.cl/Marca/BuscarMarca.aspx",
+  "officialGuidanceUrl": "https://inapi.cl/preguntas-frecuentes/marcas",
+  "searches": [
+    {
+      "term": "Nuvarelio",
+      "mode": "Exacta",
+      "result": "No hay resultados",
+      "evidence": "Resultado visible en formulario oficial; consulta conservada en tab de navegador."
+    },
+    {
+      "term": "nuvarel",
+      "mode": "Contenga",
+      "result": "No hay resultados"
+    },
+    {
+      "term": "Revilumo",
+      "mode": "Exacta",
+      "result": "No hay resultados"
+    },
+    {
+      "term": "revilum",
+      "mode": "Contenga",
+      "results": [
+        {
+          "sign": "PREVILUM",
+          "application": "1541036",
+          "class": "11",
+          "status": "Denegada"
+        },
+        {
+          "sign": "PREVILUM LTDA",
+          "application": "1509594",
+          "class": "11",
+          "status": "Abandonada"
+        }
+      ]
+    },
+    {
+      "term": "Revinexo",
+      "mode": "Exacta",
+      "result": "No hay resultados"
+    },
+    {
+      "term": "revinex",
+      "mode": "Contenga",
+      "result": "No hay resultados"
+    },
+    {
+      "term": "cuidex",
+      "mode": "Contenga",
+      "result": "No hay resultados"
+    }
+  ],
+  "notCompleted": [
+    "Búsqueda fonética/gráfica exhaustiva",
+    "Definición/revisión de coberturas y clases por especialista",
+    "Verificación directa de dominios/tiendas/redes",
+    "Revisión marcaria humana",
+    "Solicitud o registro",
+    "Aceptación del nombre por el propietario"
+  ]
+}

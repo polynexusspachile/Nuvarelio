@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "1",
+  "feature": "{{feature_name}}",
+  "jiraProject": "",
+  "issues": [
+    {
+      "sddId": "",
+      "jiraKey": "",
+      "issueType": "Task",
+      "backlogRole": "",
+      "summary": "",
+      "description": "",
+      "acceptanceCriteria": [],
+      "dependencies": [],
+      "labels": ["sdd"],
+      "area": "product",
+      "traceability": []
+    }
+  ]
+}

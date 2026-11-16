@@ -1,0 +1,15 @@
+{
+  "schemaVersion": "1",
+  "areas": [
+    "product"
+  ],
+  "adapters": {
+    "codex": {
+      "areas": [
+        "product"
+      ]
+    }
+  },
+  "defaultAdapter": "codex",
+  "updatedAt": "2026-11-15T18:24:02.309Z"
+}
